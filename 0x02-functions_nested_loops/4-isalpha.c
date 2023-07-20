@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * check for letter
+ * check for letter in _isalpha
+ *@c: the character to be checked
+ * Return: 1 if c is a letter, 0 otherwise
  *
- * character in ASCII code
- *
- * Return: 1 for letters, and 0 for the rest
  */
 
 int _isalpha(int c)
